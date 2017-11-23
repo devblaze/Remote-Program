@@ -28,188 +28,139 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tlServer = new MetroFramework.Controls.MetroTextBox();
+            this.tbIP = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.tlUsername = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.tlPassword = new MetroFramework.Controls.MetroTextBox();
-            this.mtDisconnect = new MetroFramework.Controls.MetroTile();
+            this.tbPort = new MetroFramework.Controls.MetroTextBox();
+            this.mtShare = new MetroFramework.Controls.MetroTile();
             this.mtConnect = new MetroFramework.Controls.MetroTile();
-            this.screen = new AxMSTSCLib.AxMsTscAxNotSafeForScripting();
-            ((System.ComponentModel.ISupportInitialize)(this.screen)).BeginInit();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // tlServer
+            // tbIP
             // 
             // 
             // 
             // 
-            this.tlServer.CustomButton.Image = null;
-            this.tlServer.CustomButton.Location = new System.Drawing.Point(76, 1);
-            this.tlServer.CustomButton.Name = "";
-            this.tlServer.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.tlServer.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.tlServer.CustomButton.TabIndex = 1;
-            this.tlServer.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.tlServer.CustomButton.UseSelectable = true;
-            this.tlServer.CustomButton.Visible = false;
-            this.tlServer.Lines = new string[0];
-            this.tlServer.Location = new System.Drawing.Point(80, 82);
-            this.tlServer.MaxLength = 32767;
-            this.tlServer.Name = "tlServer";
-            this.tlServer.PasswordChar = '\0';
-            this.tlServer.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tlServer.SelectedText = "";
-            this.tlServer.SelectionLength = 0;
-            this.tlServer.SelectionStart = 0;
-            this.tlServer.ShortcutsEnabled = true;
-            this.tlServer.Size = new System.Drawing.Size(98, 23);
-            this.tlServer.TabIndex = 0;
-            this.tlServer.UseSelectable = true;
-            this.tlServer.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.tlServer.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.tbIP.CustomButton.Image = null;
+            this.tbIP.CustomButton.Location = new System.Drawing.Point(121, 1);
+            this.tbIP.CustomButton.Name = "";
+            this.tbIP.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.tbIP.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tbIP.CustomButton.TabIndex = 1;
+            this.tbIP.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.tbIP.CustomButton.UseSelectable = true;
+            this.tbIP.CustomButton.Visible = false;
+            this.tbIP.Lines = new string[0];
+            this.tbIP.Location = new System.Drawing.Point(120, 167);
+            this.tbIP.MaxLength = 32767;
+            this.tbIP.Name = "tbIP";
+            this.tbIP.PasswordChar = '\0';
+            this.tbIP.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbIP.SelectedText = "";
+            this.tbIP.SelectionLength = 0;
+            this.tbIP.SelectionStart = 0;
+            this.tbIP.ShortcutsEnabled = true;
+            this.tbIP.Size = new System.Drawing.Size(143, 23);
+            this.tbIP.TabIndex = 0;
+            this.tbIP.UseSelectable = true;
+            this.tbIP.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.tbIP.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(23, 86);
+            this.metroLabel1.Location = new System.Drawing.Point(23, 171);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(51, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(65, 19);
             this.metroLabel1.TabIndex = 1;
-            this.metroLabel1.Text = "Server:";
+            this.metroLabel1.Text = "Server IP:";
             // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(184, 86);
+            this.metroLabel3.Location = new System.Drawing.Point(23, 210);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(71, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(91, 19);
             this.metroLabel3.TabIndex = 5;
-            this.metroLabel3.Text = "Username:";
+            this.metroLabel3.Text = "Port Number:";
             // 
-            // tlUsername
-            // 
-            // 
-            // 
-            // 
-            this.tlUsername.CustomButton.Image = null;
-            this.tlUsername.CustomButton.Location = new System.Drawing.Point(91, 1);
-            this.tlUsername.CustomButton.Name = "";
-            this.tlUsername.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.tlUsername.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.tlUsername.CustomButton.TabIndex = 1;
-            this.tlUsername.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.tlUsername.CustomButton.UseSelectable = true;
-            this.tlUsername.CustomButton.Visible = false;
-            this.tlUsername.Lines = new string[0];
-            this.tlUsername.Location = new System.Drawing.Point(261, 82);
-            this.tlUsername.MaxLength = 32767;
-            this.tlUsername.Name = "tlUsername";
-            this.tlUsername.PasswordChar = '\0';
-            this.tlUsername.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tlUsername.SelectedText = "";
-            this.tlUsername.SelectionLength = 0;
-            this.tlUsername.SelectionStart = 0;
-            this.tlUsername.ShortcutsEnabled = true;
-            this.tlUsername.Size = new System.Drawing.Size(113, 23);
-            this.tlUsername.TabIndex = 4;
-            this.tlUsername.UseSelectable = true;
-            this.tlUsername.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.tlUsername.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroLabel4
-            // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(380, 86);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(66, 19);
-            this.metroLabel4.TabIndex = 7;
-            this.metroLabel4.Text = "Password:";
-            // 
-            // tlPassword
+            // tbPort
             // 
             // 
             // 
             // 
-            this.tlPassword.CustomButton.Image = null;
-            this.tlPassword.CustomButton.Location = new System.Drawing.Point(90, 1);
-            this.tlPassword.CustomButton.Name = "";
-            this.tlPassword.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.tlPassword.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.tlPassword.CustomButton.TabIndex = 1;
-            this.tlPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.tlPassword.CustomButton.UseSelectable = true;
-            this.tlPassword.CustomButton.Visible = false;
-            this.tlPassword.Lines = new string[0];
-            this.tlPassword.Location = new System.Drawing.Point(452, 82);
-            this.tlPassword.MaxLength = 32767;
-            this.tlPassword.Name = "tlPassword";
-            this.tlPassword.PasswordChar = '*';
-            this.tlPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tlPassword.SelectedText = "";
-            this.tlPassword.SelectionLength = 0;
-            this.tlPassword.SelectionStart = 0;
-            this.tlPassword.ShortcutsEnabled = true;
-            this.tlPassword.Size = new System.Drawing.Size(112, 23);
-            this.tlPassword.TabIndex = 6;
-            this.tlPassword.UseSelectable = true;
-            this.tlPassword.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.tlPassword.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.tbPort.CustomButton.Image = null;
+            this.tbPort.CustomButton.Location = new System.Drawing.Point(121, 1);
+            this.tbPort.CustomButton.Name = "";
+            this.tbPort.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.tbPort.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tbPort.CustomButton.TabIndex = 1;
+            this.tbPort.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.tbPort.CustomButton.UseSelectable = true;
+            this.tbPort.CustomButton.Visible = false;
+            this.tbPort.Lines = new string[0];
+            this.tbPort.Location = new System.Drawing.Point(120, 206);
+            this.tbPort.MaxLength = 32767;
+            this.tbPort.Name = "tbPort";
+            this.tbPort.PasswordChar = '\0';
+            this.tbPort.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbPort.SelectedText = "";
+            this.tbPort.SelectionLength = 0;
+            this.tbPort.SelectionStart = 0;
+            this.tbPort.ShortcutsEnabled = true;
+            this.tbPort.Size = new System.Drawing.Size(143, 23);
+            this.tbPort.TabIndex = 4;
+            this.tbPort.UseSelectable = true;
+            this.tbPort.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.tbPort.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // mtDisconnect
+            // mtShare
             // 
-            this.mtDisconnect.ActiveControl = null;
-            this.mtDisconnect.Location = new System.Drawing.Point(694, 39);
-            this.mtDisconnect.Name = "mtDisconnect";
-            this.mtDisconnect.Size = new System.Drawing.Size(99, 73);
-            this.mtDisconnect.TabIndex = 9;
-            this.mtDisconnect.Text = "Disconnect";
-            this.mtDisconnect.TileImage = ((System.Drawing.Image)(resources.GetObject("mtDisconnect.TileImage")));
-            this.mtDisconnect.TileImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.mtDisconnect.UseSelectable = true;
-            this.mtDisconnect.Click += new System.EventHandler(this.mtDisconnect_Click);
+            this.mtShare.ActiveControl = null;
+            this.mtShare.Location = new System.Drawing.Point(141, 63);
+            this.mtShare.Name = "mtShare";
+            this.mtShare.Size = new System.Drawing.Size(122, 73);
+            this.mtShare.TabIndex = 9;
+            this.mtShare.Text = "Share my Screen";
+            this.mtShare.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mtShare.TileImage = ((System.Drawing.Image)(resources.GetObject("mtShare.TileImage")));
+            this.mtShare.TileImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.mtShare.UseSelectable = true;
+            this.mtShare.Click += new System.EventHandler(this.mtShare_Click);
             // 
             // mtConnect
             // 
             this.mtConnect.ActiveControl = null;
-            this.mtConnect.Location = new System.Drawing.Point(576, 39);
+            this.mtConnect.Location = new System.Drawing.Point(23, 63);
             this.mtConnect.Name = "mtConnect";
             this.mtConnect.Size = new System.Drawing.Size(112, 73);
             this.mtConnect.TabIndex = 8;
             this.mtConnect.Text = "Connect";
+            this.mtConnect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mtConnect.TileImage = global::RemoteControl.Properties.Resources.connect;
             this.mtConnect.UseSelectable = true;
             this.mtConnect.Click += new System.EventHandler(this.mtConnect_Click);
             // 
-            // screen
+            // timer1
             // 
-            this.screen.Enabled = true;
-            this.screen.Location = new System.Drawing.Point(23, 118);
-            this.screen.Name = "screen";
-            this.screen.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("screen.OcxState")));
-            this.screen.Size = new System.Drawing.Size(781, 371);
-            this.screen.TabIndex = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(827, 505);
-            this.Controls.Add(this.screen);
-            this.Controls.Add(this.mtDisconnect);
+            this.ClientSize = new System.Drawing.Size(301, 272);
+            this.Controls.Add(this.mtShare);
             this.Controls.Add(this.mtConnect);
-            this.Controls.Add(this.metroLabel4);
-            this.Controls.Add(this.tlPassword);
             this.Controls.Add(this.metroLabel3);
-            this.Controls.Add(this.tlUsername);
+            this.Controls.Add(this.tbPort);
             this.Controls.Add(this.metroLabel1);
-            this.Controls.Add(this.tlServer);
+            this.Controls.Add(this.tbIP);
             this.Name = "Form1";
-            this.Text = "Remote Control";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.screen)).EndInit();
+            this.Text = "Remote Desktop Client";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,15 +168,13 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroTextBox tlServer;
+        private MetroFramework.Controls.MetroTextBox tbIP;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroTextBox tlUsername;
-        private MetroFramework.Controls.MetroLabel metroLabel4;
-        private MetroFramework.Controls.MetroTextBox tlPassword;
+        private MetroFramework.Controls.MetroTextBox tbPort;
         private MetroFramework.Controls.MetroTile mtConnect;
-        private MetroFramework.Controls.MetroTile mtDisconnect;
-        private AxMSTSCLib.AxMsTscAxNotSafeForScripting screen;
+        private MetroFramework.Controls.MetroTile mtShare;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

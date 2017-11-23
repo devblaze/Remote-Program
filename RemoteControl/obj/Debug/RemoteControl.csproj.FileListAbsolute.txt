@@ -16,3 +16,21 @@ C:\Users\blaze\Documents\Visual Studio 2017\Projects\RemoteControl\RemoteControl
 C:\Users\blaze\Documents\Visual Studio 2017\Projects\RemoteControl\RemoteControl\obj\Debug\Interop.MSTSCLib.dll
 C:\Users\blaze\Documents\Visual Studio 2017\Projects\RemoteControl\RemoteControl\obj\Debug\AxInterop.MSTSCLib.dll
 C:\Users\blaze\Documents\Visual Studio 2017\Projects\RemoteControl\RemoteControl\obj\Debug\RemoteControl.csproj.ResolveComReference.cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\RemoteControl.exe.config
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\RemoteControl.exe
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\RemoteControl.pdb
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\MetroFramework.Design.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\MetroFramework.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\Interop.MSTSCLib.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\bin\Debug\AxInterop.MSTSCLib.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.csprojResolveAssemblyReference.cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\Interop.MSTSCLib.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\AxInterop.MSTSCLib.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.csproj.ResolveComReference.cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.Form1.resources
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.Properties.Resources.resources
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.csproj.GenerateResource.Cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.csproj.CoreCompileInputs.cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.exe
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteControl\obj\Debug\RemoteControl.pdb

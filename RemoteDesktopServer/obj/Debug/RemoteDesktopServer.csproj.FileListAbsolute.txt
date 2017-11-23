@@ -1,0 +1,14 @@
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\bin\Debug\RemoteDesktopServer.exe.config
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\bin\Debug\RemoteDesktopServer.exe
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\bin\Debug\RemoteDesktopServer.pdb
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\bin\Debug\MetroFramework.Design.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\bin\Debug\MetroFramework.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.Form1.resources
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.Properties.Resources.resources
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.csproj.GenerateResource.Cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.csproj.CoreCompileInputs.cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.exe
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.pdb
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.csprojResolveAssemblyReference.cache
+C:\Users\blaze\Documents\GitHub\Remote-Program\RemoteDesktopServer\obj\Debug\RemoteDesktopServer.Form2.resources
