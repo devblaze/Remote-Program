@@ -20,6 +20,7 @@ namespace RemoteDesktopServer
 
         private void metroTile1_Click(object sender, EventArgs e)
         {
+            //opens the new form with the port number and start listening (waiting for a connection)
             new Form2(int.Parse(tbPort.Text)).Show();
         }
     }

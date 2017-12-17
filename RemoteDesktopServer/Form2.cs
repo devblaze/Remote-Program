@@ -29,7 +29,7 @@ namespace RemoteDesktopServer
         public Form2(int v)
         {
             port = v;
-            //client - new TcpClient();
+            //client = new TcpClient();
             Listening = new Thread(StartListening);
             GetImage = new Thread(ReceiveImage);
             InitializeComponent();
@@ -67,40 +67,22 @@ namespace RemoteDesktopServer
                 mainStream = client.GetStream();
                 pictureBox1.Image = (Image)binFormatter.Deserialize(mainStream);
                 
+                //frame send every second
                 frames++;
                 lbFrames.Text = frames.ToString();
-                /*
-                while ((Image)binFormatter.Deserialize(mainStream) != null)
-                {
-                    frames++;
-                    lbFrames.Text = frames.ToString();
-                }
-                */
             }
         }
 
-        /*protected override void OnLoad(EventArgs e)
-        {
-            base.OnLoad(e);
-            server = new TcpListener(IPAddress.Any, port);
-            Listening.Start();
-        }
-
-        protected override void OnFormClosing(FormClosingEventArgs e)
-        {
-            base.OnFormClosing(e);
-            StopListening();
-        }
-        */
-
         protected void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
+            //closing connection in case the user closes the form in order to avoid crash
             client.Close();
             StopListening();
         }
 
         protected void Form2_Load(object sender, EventArgs e)
         {
+            //listening in any IP that uses the port the user decided
             server = new TcpListener(IPAddress.Any, port);
             StartListening();
         }

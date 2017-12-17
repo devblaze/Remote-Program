@@ -51,7 +51,7 @@
             this.lbTag.AutoScrollMinSize = new System.Drawing.Size(34, 23);
             this.lbTag.AutoSize = false;
             this.lbTag.BackColor = System.Drawing.SystemColors.Window;
-            this.lbTag.Location = new System.Drawing.Point(496, 31);
+            this.lbTag.Location = new System.Drawing.Point(498, 25);
             this.lbTag.Name = "lbTag";
             this.lbTag.Size = new System.Drawing.Size(38, 29);
             this.lbTag.TabIndex = 1;
@@ -63,7 +63,7 @@
             this.lbFrames.AutoScrollMinSize = new System.Drawing.Size(17, 23);
             this.lbFrames.AutoSize = false;
             this.lbFrames.BackColor = System.Drawing.SystemColors.Window;
-            this.lbFrames.Location = new System.Drawing.Point(540, 31);
+            this.lbFrames.Location = new System.Drawing.Point(542, 25);
             this.lbFrames.Name = "lbFrames";
             this.lbFrames.Size = new System.Drawing.Size(69, 23);
             this.lbFrames.TabIndex = 2;

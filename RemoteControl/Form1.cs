@@ -63,8 +63,6 @@ namespace RemoteControl
             }
             else
             {
-                //client.Dispose();
-                //client.Close();
                 timer1.Stop();
                 mtShare.Text = "Share my Screen";
             }
@@ -72,7 +70,15 @@ namespace RemoteControl
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //send an image from the screen every second
             SendDesktopImage();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //closing client connection and stopping the timer in case the user closes the form in order to avoid crash
+            timer1.Stop();
+            client.Close();
         }
     }
 }

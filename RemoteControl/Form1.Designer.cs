@@ -161,6 +161,7 @@
             this.Controls.Add(this.tbIP);
             this.Name = "Form1";
             this.Text = "Remote Desktop Client";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
