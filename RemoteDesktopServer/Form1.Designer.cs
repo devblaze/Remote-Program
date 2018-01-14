@@ -94,7 +94,7 @@
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroTile1);
             this.Name = "Form1";
-            this.Text = "Remote Desktop Viewer";
+            this.Text = "Remote Desktop Server";
             this.ResumeLayout(false);
             this.PerformLayout();
 
